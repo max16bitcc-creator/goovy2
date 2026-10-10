@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "createfix",
+  "version": "${version}",
+  "name": "Create Crafter Fix",
+  "description": "Fixes the Optional-to-Integer ClassCastException when a Mechanical Crafter holds an item (Create port 6.0.9-port26.3-dev.2).",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": ["createfix.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "create": "*"
+  }
+}
